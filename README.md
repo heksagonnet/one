@@ -13,5 +13,13 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 </p>
 
 ---
+## Installation
+Check out our [installation guide here](https://www.heksagon.net/template/one/#installation-)
+
+---
+## Template Guide
+Check out the guide to [customizing this template here.](https://www.heksagon.net/template/one/#template-guide)
+
+---
 ## Custom Installation
 If you'd like to have a custom installation and further customization, you can [contact us](https://www.heksagon.net/contact) to request for a quotation.
