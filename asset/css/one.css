@@ -1,7 +1,7 @@
 /* ==========================================================================
-One by Heksagon
+One | Version 1.0 (https://github.com/heksagonnet/one)
 Copyright 2021 (C) Heksagon (https://www.heksagon.net/)
-Licensed under MIT
+Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
 ========================================================================== */
 
 /* ------- Basic Structure ------- */
@@ -118,9 +118,10 @@ footer {
   right: 0;
   height: 100%;
   overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }
 .slides figure {
+  max-height: 100%;
   height: 100%;
   padding: 0 0;
   margin: 0;
@@ -137,7 +138,7 @@ footer {
   padding: 0!important;
 }
 .slides figure.fullscreen img {
-  max-height: none;
+  max-height: 100vh;
   position: absolute;
   z-index: -1;
   width: 100vw;
