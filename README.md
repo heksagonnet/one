@@ -1,4 +1,4 @@
-# ONE | [Demo]()
+# ONE | [Demo](https://heksagonnet.github.io/one/)
 
 🔧Easy-Installation ⚡️Fast 📱Responsive
 ---
@@ -13,3 +13,5 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 </p>
 
 ---
+## Custom Installation
+If you'd like to have a custom installation and further customization, you can [contact us](https://www.heksagon.net/contact) to request for a quotation.
