@@ -15,6 +15,15 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 </p>
 
 ---
+## Support
+
+If you like this template, please give a star, and consider supporting at:
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/heksagon)
+
+Your support is greatly appreciated :)
+
+---
 ## Installation
 Check out our [installation guide here](https://www.heksagon.net/template/one/#installation-)
 
