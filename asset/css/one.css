@@ -15,7 +15,12 @@ Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
   --menu-underline:white;
 }
 .bg-dark{
-  background-image: url(/one/asset/img/1.webp);background-position: center;background-repeat: no-repeat;background-size: cover;background-blend-mode: overlay;
+  background-image: url(/one/asset/img/1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: flex;
 }
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
@@ -36,7 +41,7 @@ header {
   z-index: 20;
 }
 main {
-  max-width: 100%; 
+  max-width: 500px; 
   top: 25%;
   left: 0;
   right: 0;
@@ -72,20 +77,17 @@ footer {
 }
 
 .btn-secondary{
-    color: #333;
     text-shadow: none; 
     transition:all .25s ease-in-out;
     border-radius: 20px;
     width:200px;
 }
 .btn-secondary:hover{
-    color: #333;
     text-shadow: none; 
     animation: forwards;
     opacity: 0.5;
 }
 .btn-secondary:focus {
-  color: #333;
   text-shadow: none;
 }
 
