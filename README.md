@@ -1,5 +1,7 @@
-# ONE | [Demo]()
-
+# ONE 
+```by Heksagon```
+## Click here >> [Live Demo](https://heksagonnet.github.io/one/) 
+## Click here >> [Direct Download](https://github.com/heksagonnet/one/archive/main.zip) 
 🔧Easy-Installation ⚡️Fast 📱Responsive
 ---
 ## Summary
@@ -13,3 +15,22 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 </p>
 
 ---
+## Support
+
+If you like this template, please give a star, and consider supporting at:
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/heksagon)
+
+Your support is greatly appreciated :)
+
+---
+## Installation
+Check out our [installation guide here](https://www.heksagon.net/template/one/#installation-)
+
+---
+## Template Guide
+Check out the guide to [customizing this template here.](https://www.heksagon.net/template/one/#template-guide)
+
+---
+## Custom Installation
+If you'd like to have a custom installation and further customization, you can [contact us](https://www.heksagon.net/contact) to request for a quotation.
