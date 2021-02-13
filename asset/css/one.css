@@ -36,7 +36,7 @@ header {
   z-index: 20;
 }
 main {
-  max-width: 500px; 
+  max-width: 100%; 
   top: 25%;
   left: 0;
   right: 0;
