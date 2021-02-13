@@ -1,5 +1,7 @@
-# ONE | [Demo](https://heksagonnet.github.io/one/)
-
+# ONE 
+```by Heksagon```
+## Click here >> [Live Demo](https://heksagonnet.github.io/one/) 
+## Click here >> [Direct Download](https://github.com/heksagonnet/one/archive/main.zip) 
 🔧Easy-Installation ⚡️Fast 📱Responsive
 ---
 ## Summary
