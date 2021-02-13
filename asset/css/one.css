@@ -15,7 +15,7 @@ Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
   --menu-underline:white;
 }
 .bg-dark{
-  background-image: url(/one/asset/img/1.webp);
+/*background-image: url(/one/asset/img/1.webp);*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
