@@ -15,13 +15,20 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 </p>
 
 ---
+## Performance (Lighthouse Report)
+
+[Click here to check out the result](https://googlechrome.github.io/lighthouse/viewer/?gist=fb4c7b1487323a3add5a3175a029bf0b)
+
+Almost perfect. In the server that you choose to host, make sure to have a suitable caching policy and responsive images to speed up your website.
+
+---
 ## Support
 
-If you like this template, please give a star, and consider supporting at:
+If you like this template, please give a star, and consider supporting me at:
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/heksagon)
 
-Your support is greatly appreciated :)
+Your support is greatly appreciated 😊
 
 ---
 ## Installation
