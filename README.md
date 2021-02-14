@@ -17,9 +17,9 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 ---
 ## Performance (Lighthouse Report)
 
-[Click here to check out the result](https://googlechrome.github.io/lighthouse/viewer/?gist=fb4c7b1487323a3add5a3175a029bf0b)
+[Click here to check out the result](https://googlechrome.github.io/lighthouse/viewer/?gist=1271f3fcdeb0f0d6aa6f7ad32b9d49a9)
 
-Almost perfect. In the server that you choose to host, make sure to have a suitable caching policy and responsive images to speed up your website.
+To keep it optimized, in the server that you choose to host, have a suitable caching policy and properly sized images.
 
 ---
 ## Support
