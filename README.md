@@ -34,7 +34,8 @@ Your support is greatly appreciated 😊
 ## Installation
 Check out our [installation guide here](https://www.heksagon.net/free-template/one/#installation-)
 
-If you have any issues with the installation, [comment it here](https://www.heksagon.net/free-template/one/#graphcomment)
+If you have any issues with the installation, [comment it here](https://www.heksagon.net/free-template/one/#graphcomment) or [contact us](https://www.heksagon.net/contact) directly.
+
 ---
 ## Template Guide
 Check out the guide to [customizing this template here.](https://www.heksagon.net/free-template/one/#template-guide)
