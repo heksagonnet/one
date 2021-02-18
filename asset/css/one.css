@@ -6,7 +6,7 @@ Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
 
 /* ------- Basic Structure ------- */
 :root{
-  --button-bg-color: rgba(255, 255, 255, 0);
+  --button-bg-color: transparent;
   --button-border-color: white;
   --button-font-color: white;
   --button-hover-color:white;
