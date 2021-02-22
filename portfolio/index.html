@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="One is a portfolio template for showcasing your talents in a simple and beautiful manner. All the colours, fonts, images are customizable to your specifications.">
-    <link rel="preload" as="style" href="/one/asset/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/one/asset/css/bootstrap.min.css"></noscript>
-    <title>Portfolio | One</title>
+    <link rel="preload, stylesheet" href="/one/assets/css/bootstrap.min.css">
+    <link rel="preload, stylesheet" href="/one/assets/css/one.css">
+    <title>One | by Heksagon</title>
     <!--Add Custom Favicons here
     <link rel="apple-touch-icon" href="" sizes="180x180">
     <link rel="icon" href="" sizes="32x32" type="image/png">
@@ -22,32 +22,28 @@
           -webkit-user-select: none;
           -moz-user-select: none;
           user-select: none;
-        }
+        }  
         @media (min-width: 768px) {
           .bd-placeholder-img-lg {
-          font-size: 3.5rem;
+            font-size: 3.5rem;
           }
         }
       </style>
-      <!-- Custom styles for this template -->
-      <link href="/one/asset/css/one.css" rel="stylesheet">
   </head>
 
-  <body class="d-flex min-vh-100 text-center bg-dark">
-    <div>
+  <body>
+    <div class="bg-dark one-bg">
       <header>
-        <div>
-          <h1 class="float-md-start">One</h1>
-          <p class="float-md-end">A template by <a href="//www.heksagon.net">Heksagon</a>.</p>
-          </div>
+        <h1 class="position-absolute top-0 start-50 translate-middle-x p-3 the-title">One</h1>
+        <p class="position-absolute top-0 start-50 translate-middle-x mt-5 p-3 the-sub">A template by <a href="/one//www.heksagon.net">Heksagon</a>.</p>
       </header>
     
-      <main class="px-3">
+      <main>
         <section id="portfolio"> 
           <div class="slides">
             <!-- Normal Image Format -->
-            <figure><img loading="lazy" alt="" src="/one/asset/img/2.webp"></figure>
-            <figure><img loading="lazy" alt="" src="/one/asset/img/3.webp"></figure>
+            <figure><img loading="lazy" alt="" src="/one/assets/img/2.webp"></figure>
+            <figure><img loading="lazy" alt="" src="/one/assets/img/3.webp"></figure>
 
             <!-- Typing Format -->
             <figure>
@@ -56,32 +52,33 @@
 
             <!-- Image With Captions Format -->
             <figure>
-              <img loading="lazy" alt="" src="/one/asset/img/4.webp">
+              <img loading="lazy" alt="" src="/one/assets/img/4.webp">
               <figcaption><p>or have captions</p></figcaption>
             </figure>
 
             <!-- Image With Captions And Solid Background Format -->
             <figure style="background:#ac3f00">
-              <img loading="lazy" alt="" src="/one/asset/img/5.webp">
+              <img loading="lazy" alt="" src="/one/assets/img/5.webp">
               <figcaption> <p>choose a solid background to suit any mood</p></figcaption>
             </figure>
 
             <!-- FullScreen Image Format -->
             <figure class="fullscreen">
-              <img loading="lazy" alt="" src="/one/asset/img/6.webp">
+              <img loading="lazy" alt="" src="/one/assets/img/6.webp">
               <h2 style="color:black !important;">or go full screen</h2>
             </figure>
             <!-- end slides -->
           </div>
         </section>
       </main>
+    
+      <footer>
+        <nav class="nav position-absolute bottom-0 start-50 translate-middle-x p-3">
+          <a class="nav-link" href="/one/">Home</a>
+          <a class="nav-link active" aria-current="page" href="/one/portfolio/">Portfolio</a>
+          <a class="nav-link" href="/one/contact/">Contact</a>
+        </nav>
+      </footer>
     </div>
-    <footer>
-      <nav class="nav nav-masthead float-md-none">
-        <a class="nav-link" href="/one/">Home</a>
-        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-        <a class="nav-link" href="/one/contact/">Contact</a>
-      </nav>
-    </footer>
   </body>
 </html>

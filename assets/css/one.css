@@ -1,0 +1,136 @@
+/* ==========================================================================
+One | Version 1.0 (https://github.com/heksagonnet/one)
+Copyright 2021 (C) Heksagon (https://www.heksagon.net/)
+Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
+========================================================================== */
+
+/* ------- Basic Structure ------- */
+:root{
+  --button-bg-color: rgba(255,255,255,0);
+  --button-border-color: rgb(245, 245, 245);
+  --button-font-color: rgb(245, 245, 245);
+  --button-hover-color:rgb(245, 245, 245);
+  --button-hover-font:rgb(0, 0, 0);
+  --fonts-color: rgb(245, 245, 245);
+  --menu-underline:rgb(255, 255, 255);
+}
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, a, label {
+  color: var(--fonts-color) !important;
+}
+.one-bg{
+  background-image: url(/assets/img/1.webp);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  height: 100vh !important;
+}
+.the-title{
+ color: var(--fonts-color);
+ z-index: 10;    
+}
+.the-sub, a, a:hover, a:active{
+ color: var(--fonts-color);
+ z-index: 10;    
+}
+.btn{
+  color: var(--button-font-color) !important;
+  background-color: var(--button-bg-color);
+  border-color: var(--button-border-color);
+  padding-right:3rem!important;
+  padding-left:3rem!important
+}
+.btn:active, .btn:hover{
+  color: var(--button-hover-font) !important;
+  border-color: var(--button-hover-color);
+  background-color: var(--button-hover-color);
+}
+.nav-link.active{
+  color: var(--menu-underline) !important;
+  border-bottom: var(--menu-underline);
+  border-bottom-style: solid;
+  border-width: 5px;
+  transition:all .25s ease-in-out
+}
+.one-main{
+  color: var(--fonts-color); 
+  max-width: 600px;
+  padding-top: 30vh !important;
+}
+.one-contact{
+  max-width: 600px;
+  padding-top: 20vh !important;
+}
+@media only screen and (max-width: 600px) {
+  .one-main{
+    max-width: 90%;
+  }
+  .the-sub{
+    width: 100vw !important;
+    text-align: center;            
+  }
+  .nav{
+    width: 100vw !important;
+  }
+  .nav-link{
+    width: 33%;
+    text-align: center;
+  }
+}
+/* ------- Slideshow ------- */
+
+.slides {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+.slides figure {
+  height: 100%;
+  padding: 0 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  scroll-snap-align: center;
+}
+.slides figure img {
+  max-height: 68vh;
+  max-width: 100%;
+}
+.slides figure.fullscreen {
+  padding: 0!important;
+}
+.slides figure.fullscreen img {
+  max-height: 100%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ------- Contact Form ------- */
+
+input,select,option,textarea{
+  width:90%;
+  padding:10px 20px;
+  border-radius:20px;
+  box-sizing:border-box;
+  margin-top:.3em;
+  margin-bottom:.3em;
+  resize:vertical;
+  opacity: 0.5;
+}
+input::placeholder, textarea::placeholder{
+ text-align: center !important;
+}
