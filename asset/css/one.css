@@ -66,28 +66,24 @@ footer {
 }
 
 /* ------- Buttons ------- */
-.btn{
+.btn1{
   color: var(--button-font-color) !important;
   background-color: var(--button-bg-color)!important;
   border-color: var(--button-border-color)!important;
+  text-shadow: none; 
+  transition:all .25s ease-in-out;
+  border-radius: 20px;
+  width:200px;
 }
-.btn:hover{
+.btn1:hover{
   background-color: var(--button-hover-color)!important;
   color: var(--button-hover-font)!important;
+  text-shadow: none; 
+  animation: forwards;
+  opacity: 0.5;
 }
 
-.btn-secondary{
-    text-shadow: none; 
-    transition:all .25s ease-in-out;
-    border-radius: 20px;
-    width:200px;
-}
-.btn-secondary:hover{
-    text-shadow: none; 
-    animation: forwards;
-    opacity: 0.5;
-}
-.btn-secondary:focus {
+.btn1:focus {
   text-shadow: none;
 }
 
