@@ -10,8 +10,8 @@ One is a **beginner-friendly** portfolio template for showcasing your talents in
 ---
 ## Preview
 <p align="center">
-  <kbd><img width=600px src="asset/img/preview.webp" alt="Preview" /></kbd>
-  <kbd><img width=153px src="asset/img/preview-mobile.webp" alt="Preview in Mobile" /></kbd>
+  <kbd><img width=600px src="assets/img/preview.webp" alt="Preview" /></kbd>
+  <kbd><img width=153px src="assets/img/preview-mobile.webp" alt="Preview in Mobile" /></kbd>
 </p>
 
 ---
