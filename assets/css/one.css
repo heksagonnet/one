@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 100vh;
+  min-height: 100vh !important;
 }
 .the-title{
  color: var(--fonts-color);
