@@ -23,14 +23,11 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   color: var(--fonts-color) !important;
 }
 .one-bg{
-  display: block;
-
   background-image: url(/one/assets/img/1.webp);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  max-height: 100vh !important;
+  max-height: 100vh;
 }
 .the-title{
  color: var(--fonts-color);
@@ -64,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
 .one-main{
   color: var(--fonts-color); 
   max-width: 600px;
-  padding-top: 30vh !important;
+  padding-top: 30vh;
 }
 .one-contact{
   max-width: 600px;
