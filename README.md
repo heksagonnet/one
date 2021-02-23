@@ -1,8 +1,10 @@
-# ONE 
-```by Heksagon```
-## Click here >> [Live Demo](https://heksagonnet.github.io/one/) 
-## Click here >> [Direct Download](https://github.com/heksagonnet/one/archive/main.zip) 
-🔧Easy-Installation ⚡️Fast 📱Responsive
+# ONE ```by Heksagon```
+
+## [Live Demo](https://heksagonnet.github.io/one/) | [Direct Download](https://github.com/heksagonnet/one/archive/main.zip) 
+- 🔧 Easy-Installation 
+- ⚡️ Fast 
+- 📱 Responsive
+- 🎨 Customizable
 ---
 ## Summary
 One is a **beginner-friendly** portfolio template for showcasing your talents in a simple and beautiful manner. All the colours, fonts, and images are **customizable** to your specifications. Using a [Bootstrap 5.0 Framework](https://getbootstrap.com/docs/5.0/getting-started/introduction/), it is **responsive** and looks good in various screen resolutions from mobile devices, tablets to desktops. It is based on [Cover](https://getbootstrap.com/docs/5.0/examples/cover/).
