@@ -29,9 +29,6 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
-  top: 0;
-  left: 0;
-  right: 0;
   min-height: 90vh !important;
 }
 .the-title{
