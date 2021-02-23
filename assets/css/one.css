@@ -24,11 +24,12 @@ h1, h2, h3, h4, h5, h6, p, a, label {
 }
 .one-bg{
   display: block;
+
   background-image: url(/one/assets/img/1.webp);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: overlay;
+
   max-height: 100vh !important;
 }
 .the-title{
