@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   color: var(--fonts-color) !important;
 }
 .one-bg{
+  display: block;
   background-image: url(/one/assets/img/1.webp);
   background-position:center;
   background-size: cover;
@@ -31,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   top: 0;
   left: 0;
   right: 0;
-  min-height: 100% !important;
+  min-height: 100vh !important;
 }
 .the-title{
  color: var(--fonts-color);
