@@ -95,8 +95,8 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   left: 0;
   right: 0;
   height: 100% !important;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
 .slides figure {
