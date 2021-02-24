@@ -62,7 +62,6 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   color: var(--fonts-color); 
   max-width: 600px;
   padding-top: 30vh;
-  max-height: 100vh;
 }
 .one-contact{
   max-width: 600px;
