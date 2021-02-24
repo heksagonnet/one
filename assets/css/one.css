@@ -59,9 +59,10 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   font-weight: 700;
 }
 .one-main{
+  background-blend-mode: normal;
   color: var(--fonts-color); 
   max-width: 600px;
-
+  padding-top: 30vh;
 }
 .one-contact{
   max-width: 600px;
