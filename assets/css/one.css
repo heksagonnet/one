@@ -23,12 +23,13 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   color: var(--fonts-color) !important;
 }
 .one-bg{
+  max-height: 100vh;
   background-image: url(/one/assets/img/1.webp);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  max-height: 100vh;
+  background-color:#212529!important;
+  background-blend-mode: overlay;
 }
 .the-title{
  color: var(--fonts-color);
