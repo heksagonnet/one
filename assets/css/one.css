@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   place-items: center;
   align-content: center;
   scroll-snap-align: center;
+  transition: 0.5s;
 }
 .slides figure img {
   max-height: 68vh;
