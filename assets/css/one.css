@@ -17,6 +17,8 @@ Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-color:#212529!important;
+  background-blend-mode: overlay;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1, h2, h3, h4, h5, h6, p, a, label {
@@ -28,8 +30,6 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color:#212529!important;
-  background-blend-mode: overlay;
 }
 .the-title{
  color: var(--fonts-color);
