@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
 .one-contact{
   max-width: 600px;
   padding-top: 15vh !important;
+  z-index: 100;
 }
 @media only screen and (max-width: 600px) {
   .one-main{
@@ -94,7 +95,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   top: 0;
   left: 0;
   right: 0;
-  height: 99%;
+  height: 99.999%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
