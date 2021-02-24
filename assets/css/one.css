@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
 }
 .btn{
   color: var(--button-font-color) !important;
-  background-color: var(--button-bg-color);
+  background-color: transparent;
   border-color: var(--button-border-color);
   padding-right:3rem!important;
   padding-left:3rem!important
