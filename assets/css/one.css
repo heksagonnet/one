@@ -15,7 +15,6 @@ Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
   --menu-underline:rgb(255, 255, 255);
 }
 body {
-  max-height: 100vh !important;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -23,6 +22,9 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   color: var(--fonts-color) !important;
 }
 .one-bg{
+  max-height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
   background-image: url(/one/assets/img/1.webp);
   background-position:center;
   background-size: cover;
@@ -107,7 +109,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   scroll-snap-align: center;
 }
 .slides figure img {
-  max-height: 68%;
+  max-height: 68vh;
   max-width: 100%;
 }
 .slides figure.fullscreen {
