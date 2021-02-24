@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   height: 100%;
   padding: 0 0;
   margin: 0;
-  display: grid;
+  display: inline-block;
   place-items: center;
   align-content: center;
   scroll-snap-align: center;
