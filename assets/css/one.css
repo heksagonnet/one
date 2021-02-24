@@ -15,7 +15,7 @@ Licensed under MIT (https://github.com/heksagonnet/one/blob/main/LICENSE)
   --menu-underline:rgb(255, 255, 255);
 }
 body {
-  max-height: calc(100vh - calc(100vh - 100%)) !important;
+  max-height: 100vh !important;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -118,7 +118,6 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
