@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, p, a, label {
   scroll-snap-align: center;
 }
 .slides figure img {
-  max-height: 68vh;
+  max-height: 68%;
   max-width: 100%;
 }
 .slides figure.fullscreen {
